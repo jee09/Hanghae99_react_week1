@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+.container {
+  color: bisque;
+  font-family: "Alkalami", serif;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #f07964;
+  padding: 20px 50px 20px 30px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

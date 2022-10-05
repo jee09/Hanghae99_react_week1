@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+.todo {
+  font-family: "Gowun Dodum", sans-serif;
+}
+.todo-container {
+  width: 270px;
+  border: 10px solid hsl(9, 61%, 75%);
+  border-radius: 10px;
+  padding: 10px 20px 15px 20px;
+  margin-right: 10px;
+}
+button {
+  font-family: inherit;
+}
+.button-set {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todo-delete-button {
+  border: 2px solid hsl(0, 50%, 58%);
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.todo-delete-button:hover {
+  border: 3px solid hsl(0, 50%, 58%);
+  background-color: hsl(0, 50%, 58%);
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+.todo-complete-button {
+  border: 2px solid hsl(235, 35%, 50%);
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.todo-complete-button:hover {
+  border: 3px solid hsl(235, 35%, 50%);
+  background-color: hsl(235, 35%, 50%);
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}

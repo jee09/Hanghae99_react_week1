@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+.List {
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-container {
+  padding: 0 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.list-title {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}

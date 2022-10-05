@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+.layout {
+  font-family: "Gowun Dodum", sans-serif;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
